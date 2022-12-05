@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>쇼핑몰 만들기</title>
+
+    <!-- 아웃터널 스타일 시트 연결 -->
+    <link rel="stylesheet" href="index.css">
+    <!-- 인터널 스타일 시트 작성 -->
+    <style>
+        * { /* 초기화작업 */
+            margin: 0;
+            padding: 0;
+        }
+        a { /* a태그의 효과 제거, 색상 제거 */
+            text-decoration: none; 
+            color: #000;
+        }
+        ol, ul { /* li 태그 점 제거 */
+            list-style: none;
+        }
+        .container {
+            background-color: greenyellow;
+            width: 960px;
+        }
+        #intro {
+            width: 100%;
+            height: 80px;
+            background-color: green;
+        }
+        #intro h1 {
+            float: left;
+            width: 50%;
+            height: 80px;
+            background-color: #fbfbfb;
+        }
+        #intro h1 a {
+            display: block;
+            padding: 22px 0 0 30px;
+            font-size: 30px;
+        }
+        #intro nav {
+            float: right;
+            width: 50%;
+            height: 80px;
+            background-color: pink;
+        }
+        #intro nav ul li {
+            width: 33.33333%;
+            height: 80px;
+            float: left;
+            text-align: center;
+            line-height: 80px;
+        }
+        #intro nav ul li.one {
+            background-color: #efeff6;
+        }
+        #intro nav ul li.two {
+            background-color: #dcdcec;
+        }
+        #intro nav ul li.three {
+            background-color: #cdcae3;
+        }
+    </style>
+
+</head>
+<body>
+    <div class="container">
+        <header id="intro">
+            <h1>
+                <a href="">엘리스 사전</a>
+            </h1>
+            <nav>
+                <ul>
+                    <li class="one"><a href="">캐릭터 소개</a></li>
+                    <li class="two"><a href="">줄거리</a></li>
+                    <li class="three"><a href="">부록</a></li>
+                </ul>
+            </nav>
+        </header>
+    </div>
+    
+</body>
+
+
+
+
+
+
+
+
+
+</html>
