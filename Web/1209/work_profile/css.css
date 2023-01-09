@@ -1,0 +1,98 @@
+
+* {
+    margin: 0;
+    padding: 0;
+}
+header ul li {
+    list-style: none;
+}
+header a {
+    text-decoration: none;
+}
+/* ------------- */
+header.topmenu {
+    background-color: grey;
+    font: white;
+    padding: 5px;
+    /* margin: 20px; */
+    height: 30px;
+    width: 100%;
+    line-height: 30px;
+}
+header li a {color: white;}
+li#profile {
+    /* width: 10px; */
+    /* line-height: ; */
+    padding: 0 10px 0 10px;
+    float: left;
+}
+li#detail {
+    padding: 0 10px 0 10px;
+    float: left;
+}
+.topmenu li a:hover {
+    transition: all 0.5s linear;
+    background-color: darkgray;
+    letter-spacing: 4px;
+}
+
+/* ------------------- */
+
+div {
+    clear: both;
+    width: 400px;
+    margin: 20px;
+    padding: 10px;
+
+}
+div p {
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+div.imgProfile {
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+}
+img#imgProfile {
+    width: 400px;
+    transition: all 0.5s linear;
+}
+img#imgProfile:hover {
+    transform: scale(1.4);
+}
+
+/* ------------------- */
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 20px;
+
+}
+section {
+    flex: 1 1 40%;
+    width: 50%;
+    margin: 5px;
+}
+section p {
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+.container ul li {
+    margin-left: 30px;
+}
+.container ol li {
+    margin-left: 30px;
+}
+
+/* --------------- */
+
+footer div {
+    background-color: lightgrey;
+    width: 100%;
+}
+footer div p {
+    font-size: 13px;
+    text-align: left;
+    padding-top: 40px;
+}
